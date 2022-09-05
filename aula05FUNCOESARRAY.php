@@ -108,5 +108,5 @@ echo $caes . "<hr>";
 
 // explode - transforma uma string em um array (string -> array)
 $frase = "Hoje, no, café, da, manhã, comi, pão";
-$arrayfrase = explode(" ",$frase); // separador = espaço em branco, vai separar as palavras em um array.
+$arrayfrase = explode(" ",$frase); // delimitador = espaço em branco, vai separar as palavras em um array.
 print_r($arrayfrase);
