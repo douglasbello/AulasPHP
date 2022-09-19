@@ -18,5 +18,3 @@ echo $juntar;
 $frase = "Hoje no almoço eu comi:"
 
 ?>
-
-
