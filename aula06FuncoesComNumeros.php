@@ -9,7 +9,7 @@ echo "<hr>";
 $numero = 4.56;
 echo round($numero) . "<br>"; // arredonda float para número inteiro.
 $numero2 = 3.12456;
-$testeRound = round($numero2,2); // arredonda para quantas casas decimais você definir, nesse caso eu defini para 2 casas decimais
+$testeRound = round($numero2,2); // arredonda para quantas casas decimais você definir, nesse caso definido para 2 casas decimais
 echo str_replace(".",",", $testeRound) . "<hr>"; // substituí o "." das casas decimais por vírgula
 
 $aleatorio = rand(); // gera número aleatório  -- parametros: rand(min,max)
