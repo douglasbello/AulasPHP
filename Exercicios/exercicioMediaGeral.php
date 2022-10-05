@@ -1,6 +1,8 @@
 <?php
-$numeros = array(100,100,100);
-function media_geral() {
-    
+
+function media_geral($a,$b)
+{
+    $vetor = [$a,$b];
+    return ($a + $b) / count($vetor);
 }
-echo media_geral();
+echo media_geral(100,100) . PHP_EOL;
